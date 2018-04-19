@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+    <Beta>False</Beta>
+    <Category>DiscordBot:</Category>
+    <Name>silentium-discord-bot</Name>
+    <Description>
+        Bot Discord pour Silentium
+    </Description>
+    <Overview>
+        Bot Discord pour Silentium
+    </Overview>
+    <Support></Support>
+    <Registry>https://registry.hub.docker.com/u/epicdenmos/silenium-discord-bot/</Registry>
+    <GitHub>https://github.com/EpicDenmos/silentium-discord-bot</GitHub>
+    <Repository>epicdenmos/silentium-discord-bot</Repository>
+    <ExtraParams></ExtraParams>
+</Containers>
