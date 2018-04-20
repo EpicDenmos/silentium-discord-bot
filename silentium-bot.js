@@ -68,10 +68,12 @@ function init() {
     var twitter = new Twitter(config.twitter);
     
     twitter.on('tweet', function (tweet) {
-        sendTweetOnDiscord(tweet, config.tweetsChannel);
+        if(tweet.user.id === config.tweetsUserId) {
+            sendTweetOnDiscord(tweet, config.tweetsChannel);
+        }        
     });
 
-    twitter.follow(2276436812);
+    twitter.follow(config.tweetsUserId);
 }
 
 
